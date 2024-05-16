@@ -50,6 +50,20 @@ aside {
 .card {
 
 }
+
+.card_aside {
+    border-radius: 0 0 15px 15px;
+    margin: 10px;
+}
+.card_text-wrap {
+    border-radius: 0 0 15px 15px;
+    background-color: lightgrey;
+
+}
+
+.text-align {
+    padding: 10px 0 10px 10px;
+}
 .card_aside {
     border: solid 1px gray;
     margin: 10px;
