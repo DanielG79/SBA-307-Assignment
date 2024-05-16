@@ -3,10 +3,12 @@ body {
     padding: 0;
 
 }
+img {
+    width: 100%;
+}
 
 .flex {
     display: flex;
-    justify-content: space-between;
 }
 
 .search-value {
@@ -30,6 +32,32 @@ i.fa-solid {
     justify-content: space-between;
 }
 
+#main-aside, aside {
+    margin: 10px;
+    display: inline;
+    flex-direction: column; 
+}
+#main-aside {
+    width: 75%;
+
+}
+
+aside {
+    width: 25%;
+    border: solid 5px green;
+}
+
+.card {
+
+}
+.card_aside {
+    border: solid 1px gray;
+    margin: 10px;
+}
+.cabins {
+    padding: 20px ;
+    border: solid 5px gray;
+}
 
 i.fa-solid {
     color: blue;
@@ -47,7 +75,16 @@ i.fa-solid {
     color: #888;
 }
 
+.footer-bg {
+    background-color: light rgb(176, 14, 14);
+    height: 100px;
+    
+}
 .footer-li {
+    
     display: flex;
     flex-wrap: wrap;
+    font-size: 24px;
+    font-weight: 500;
 }
+
