@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-value {
+    display: flex;
+    border: 1px solid blue;
+}
