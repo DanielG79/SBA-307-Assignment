@@ -1,13 +1,12 @@
 body {
     margin: 0;
     padding: 0;
-
 }
 
 img {
     width: 100%;
 }
-
+/*
 .flex {
     display: flex;
 }
@@ -36,8 +35,7 @@ i.fa-solid {
 #main-aside,
 aside {
     margin: 10px;
-    display: inline;
-    flex-direction: column;
+
 }
 
 #main-aside {
@@ -47,10 +45,10 @@ aside {
 
 aside {
     width: 25%;
-    border: solid 5px grey;
-}
 
-.card {}
+} /* border: solid 5px grey; */
+
+/* .card {}
 
 .card_aside {
     border-radius: 0 0 15px 15px;
@@ -60,7 +58,11 @@ aside {
 .card_text-wrap {
     border-radius: 0 0 15px 15px;
     background-color: lightgrey;
+    text-decoration: none;
+}
 
+.card_text-wrap i {
+    text-decoration: none;
 }
 
 .text-align {
@@ -68,17 +70,17 @@ aside {
 }
 
 .card_aside {
-    border: solid 1px gray;
+    border: solid 5px black;
     margin: 10px;
 }
 
 .cabins {
     padding: 20px;
-    border: solid 5px gray;
+    
 }
 
 i.fa-solid {
-    color: blue;
+
     border-radius: 60px;
     box-shadow: 0px 0px 1px #888;
     padding: 1rem 0.7em;
@@ -102,7 +104,9 @@ footer {
 .ul-boxes {
     margin: 20px;
 }
-
+a {
+    text-decoration: none;
+}
 .footer-li {
     background-color: rgb(164, 155, 155);
     display: flex;
@@ -113,4 +117,15 @@ footer {
     height: 200px;
     align-items: center;
     margin: 20px;
+}  */
+
+
+
+/* ########################################
+#####################################
+with only bootstrap After This section */
+
+a {
+    text-decoration-line: none;
 }
+
