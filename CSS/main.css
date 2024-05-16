@@ -46,3 +46,8 @@ i.fa-solid {
 .graystar {
     color: #888;
 }
+
+.footer-li {
+    display: flex;
+    flex-wrap: wrap;
+}
