@@ -13,3 +13,19 @@ body {
     display: flex;
     border: 1px solid blue;
 }
+
+i.fa-solid {
+    padding: 1rem;
+    color: blue;
+
+}
+
+.btn-dad {
+    display: flex;
+    margin: 20px 10px;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+}
