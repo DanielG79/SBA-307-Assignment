@@ -3,6 +3,7 @@ body {
     padding: 0;
 
 }
+
 img {
     width: 100%;
 }
@@ -32,11 +33,13 @@ i.fa-solid {
     justify-content: space-between;
 }
 
-#main-aside, aside {
+#main-aside,
+aside {
     margin: 10px;
     display: inline;
-    flex-direction: column; 
+    flex-direction: column;
 }
+
 #main-aside {
     width: 75%;
 
@@ -44,17 +47,16 @@ i.fa-solid {
 
 aside {
     width: 25%;
-    border: solid 5px green;
+    border: solid 5px grey;
 }
 
-.card {
-
-}
+.card {}
 
 .card_aside {
     border-radius: 0 0 15px 15px;
     margin: 10px;
 }
+
 .card_text-wrap {
     border-radius: 0 0 15px 15px;
     background-color: lightgrey;
@@ -64,21 +66,23 @@ aside {
 .text-align {
     padding: 10px 0 10px 10px;
 }
+
 .card_aside {
     border: solid 1px gray;
     margin: 10px;
 }
+
 .cabins {
-    padding: 20px ;
+    padding: 20px;
     border: solid 5px gray;
 }
 
 i.fa-solid {
     color: blue;
     border-radius: 60px;
-        box-shadow: 0px 0px 1px #888;
-        padding: 1rem 0.7em;
-        background-color: #DEEBFF;
+    box-shadow: 0px 0px 1px #888;
+    padding: 1rem 0.7em;
+    background-color: #DEEBFF;
 }
 
 .bluestar {
@@ -89,16 +93,24 @@ i.fa-solid {
     color: #888;
 }
 
-.footer-bg {
-    background-color: light rgb(176, 14, 14);
-    height: 100px;
-    
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 20px;
 }
+
+.ul-boxes {
+    margin: 20px;
+}
+
 .footer-li {
-    
+    background-color: rgb(164, 155, 155);
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
     font-size: 24px;
     font-weight: 500;
+    height: 200px;
+    align-items: center;
+    margin: 20px;
 }
-
