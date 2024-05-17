@@ -9,10 +9,6 @@ nav {
     color: rgb(168, 144, 180)
 }
 
-.nav-links {
-    width: 80%;
-}
-
 .nav-links-text {
     font-size: 30px;
 }
@@ -111,14 +107,48 @@ a {
     text-decoration: none;
 }
 
-.carousel {
+/* .carousel {
     border: 2px solid gray;
     
 
-}
+} */
 
 
 
 
 /* ########################################
-#####################################
+/* drop down menu */
+/* ##################################### */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    background-color: white;
+    width: 100px;
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: lightgrey;
+}
+
+.dropdown:hover .dropdown-content{
+
+    display: block;
+}
+
+.menu {
+    color: #888;
+    font-size: x-large;
+}
