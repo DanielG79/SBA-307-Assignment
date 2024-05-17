@@ -1,20 +1,61 @@
 body {
     margin: 0;
     padding: 0;
+
 }
 
-img {
-    width: 100%;
+nav {
+    background-color: rgb(178, 189, 219);
+    color: rgb(168, 144, 180)
 }
+#search-bar { 
+    background-color: rgb(8, 8, 200);
+    width: 27%;
+    display: flex;
+    border: 1px solid rgb(212, 212, 221);
+    border-radius: 15px;
+}
+
+a, li {
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+.btn-dad{
+    font-size: 24px;
+}
+
+.btns >div {
+    border: solid 5px rgb(149, 133, 133);
+    border-radius: 15px;
+}
+
+.search, .location {
+
+    color: white;
+}
+.bluestar {
+    color: blue;
+}
+
+.graystar {
+    color: #888;
+}
+
+/* .icon-color {
+    color: black;
+} */
 /*
 .flex {
     display: flex;
 }
 
-.search-value {
-    display: flex;
-    border: 1px solid blue;
-}
+
 
 i.fa-solid {
     padding: 1rem;
@@ -125,7 +166,7 @@ a {
 #####################################
 with only bootstrap After This section */
 
-a {
-    text-decoration-line: none;
-}
 
+.h3-text {
+
+}
