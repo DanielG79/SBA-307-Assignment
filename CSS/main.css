@@ -8,11 +8,20 @@ nav {
     background-color: rgb(178, 189, 219);
     color: rgb(168, 144, 180)
 }
+
+.nav-links {
+    width: 80%;
+}
+
+.nav-links-text {
+    font-size: 30px;
+}
+
 #search-bar { 
     background-color: rgb(8, 8, 200);
     width: 27%;
     display: flex;
-    border: 1px solid rgb(212, 212, 221);
+
     border-radius: 15px;
 }
 
@@ -27,11 +36,12 @@ a:hover {
 }
 
 .btn-dad{
-    font-size: 24px;
+    width: 50%;
+    font-size: 20px;
 }
 
 .btns >div {
-    border: solid 5px rgb(149, 133, 133);
+    border: solid 5px rgb(42, 64, 206);
     border-radius: 15px;
 }
 
@@ -47,58 +57,21 @@ a:hover {
     color: #888;
 }
 
-/* .icon-color {
-    color: black;
-} */
-/*
-.flex {
-    display: flex;
+aside, #main {
+    
+    border: solid 10px white; 
 }
 
-
-
-i.fa-solid {
-    padding: 1rem;
-    color: blue;
-
-}
-
-.btn-dad {
-    display: flex;
-    margin: 20px 10px;
-}
-
-.btns {
-    display: flex;
-    justify-content: space-between;
-}
-
-#main-aside,
-aside {
-    margin: 10px;
-
-}
-
-#main-aside {
-    width: 75%;
-
-}
-
-aside {
-    width: 25%;
-
-} /* border: solid 5px grey; */
-
-/* .card {}
-
-.card_aside {
+.cabins {
+    border: solid 10px white;
     border-radius: 0 0 15px 15px;
-    margin: 10px;
 }
 
 .card_text-wrap {
     border-radius: 0 0 15px 15px;
-    background-color: lightgrey;
+    border-radius: 0 0 15px 15px;
+    background-color: white;
+    text-align: center;
     text-decoration: none;
 }
 
@@ -110,63 +83,42 @@ aside {
     padding: 10px 0 10px 10px;
 }
 
+aside {
+    border-radius: 0 0 15px 15px;
+    
+}
 .card_aside {
-    border: solid 5px black;
+    border-radius: 0 0 15px 15px;
+    border: solid 5px rgb(155, 151, 151);
     margin: 10px;
 }
 
-.cabins {
-    padding: 20px;
-    
-}
-
-i.fa-solid {
-
-    border-radius: 60px;
-    box-shadow: 0px 0px 1px #888;
-    padding: 1rem 0.7em;
-    background-color: #DEEBFF;
-}
-
-.bluestar {
-    color: blue;
-}
-
-.graystar {
-    color: #888;
-}
-
 footer {
-    background-color: black;
-    color: white;
+    background-color: rgb(178, 189, 219);
+    color: black;
+    font-size: 24px;
     margin-top: 20px;
 }
 
-.ul-boxes {
-    margin: 20px;
+.footer-width {
+    width: 70%;
+    height: 200px;
+    font-weight: 400;
+    align-items: center;
 }
+
 a {
     text-decoration: none;
 }
-.footer-li {
-    background-color: rgb(164, 155, 155);
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    font-size: 24px;
-    font-weight: 500;
-    height: 200px;
-    align-items: center;
-    margin: 20px;
-}  */
+
+.carousel {
+    border: 2px solid gray;
+    
+
+}
+
 
 
 
 /* ########################################
 #####################################
-with only bootstrap After This section */
-
-
-.h3-text {
-
-}
